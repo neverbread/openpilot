@@ -108,7 +108,7 @@ class CarInterface(CarInterfaceBase):
       ret.wheelbase = 2.7
       ret.steerRatio = 15.4            # 14 is Stock | Settled Params Learner values are steerRatio: 15.401566348670535
       ret.tireStiffnessFactor = 0.385    # stiffnessFactor settled on 1.0081302973865127
-      ret.minSteerSpeed = 0 * CV.MPH_TO_MS
+      ret.minSteerSpeed = 31 * CV.MPH_TO_MS
     elif candidate in (CAR.ELANTRA_2021, CAR.ELANTRA_2022_NON_SCC):
       ret.mass = 2800. * CV.LB_TO_KG
       ret.wheelbase = 2.72
